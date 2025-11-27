@@ -166,6 +166,16 @@ const Contact = () => {
               className="rounded-2xl border border-white/10 bg-white/5 backdrop-blur p-6 sm:p-8"
             >
               <h2 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6 text-white">Book Your Event</h2>
+              <style>{`
+                input[type="date"]::-webkit-calendar-picker-indicator {
+                  filter: invert(1);
+                  cursor: pointer;
+                  opacity: 1;
+                }
+                input[type="date"]::-webkit-calendar-picker-indicator:hover {
+                  opacity: 0.8;
+                }
+              `}</style>
               <form onSubmit={handleSubmit} className="space-y-4">
                 <div>
                   <Input
@@ -223,7 +233,7 @@ const Contact = () => {
                     type="date"
                     value={formData.event_date}
                     onChange={(e) => setFormData({ ...formData, event_date: e.target.value })}
-                    className="text-white bg-white/10 border-white/20 placeholder:text-white/50 focus-visible:ring-accent"
+                    className="text-white bg-white/10 border-white/20 placeholder:text-white/50 focus-visible:ring-accent [&::-webkit-calendar-picker-indicator]:invert [&::-webkit-calendar-picker-indicator]:cursor-pointer [&::-webkit-calendar-picker-indicator]:opacity-100"
                     required
                   />
                 </div>
