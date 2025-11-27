@@ -107,9 +107,10 @@ const Index = () => {
               Welcome to <span className="text-transparent bg-gradient-to-r from-accent to-pink-400 bg-clip-text">Smart Events</span>
             </h2>
             <p className="text-lg text-white/80 mb-8">
-              We are Pakistan's premier event management service, specializing in creating
+              We are Islamabad and Rawalpindi's premier event management service, specializing in creating
               unforgettable experiences for every occasion. From intimate birthday celebrations to
-              grand wedding ceremonies, we handle every detail with professionalism and care.
+              grand wedding ceremonies, we handle every detail with professionalism and care. Serving
+              the twin cities and surrounding areas including Chaksahzad, Bahria Town, DHA, and more.
             </p>
           </motion.div>
         </div>
@@ -129,7 +130,7 @@ const Index = () => {
           >
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">Our Services</h2>
             <p className="text-lg text-white/80 max-w-2xl mx-auto">
-              Comprehensive event management solutions tailored to your needs
+              Comprehensive event management solutions in Islamabad and Rawalpindi, tailored to your needs
             </p>
           </motion.div>
 
@@ -169,7 +170,7 @@ const Index = () => {
           >
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">Our Work</h2>
             <p className="text-lg text-white/80">
-              A glimpse into the beautiful events we've created
+              A glimpse into the beautiful events we've created across Islamabad and Rawalpindi
             </p>
           </motion.div>
 
@@ -185,7 +186,7 @@ const Index = () => {
               >
                 <img
                   src={image}
-                  alt={`Gallery ${index + 1}`}
+                  alt={`Event decoration and celebration in Islamabad and Rawalpindi - Gallery ${index + 1}`}
                   className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
                   style={{ filter: 'brightness(1.35) contrast(1.4) saturate(1.2)' }}
                 />
@@ -254,11 +255,11 @@ const Index = () => {
             viewport={{ once: true }}
           >
             <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white">
-              Ready to Plan Your Perfect Event?
+              Ready to Plan Your Perfect Event in Islamabad or Rawalpindi?
             </h2>
             <p className="text-lg mb-8 max-w-2xl mx-auto text-white/80">
               Let us handle the details while you enjoy your special day. Contact us today for a
-              free consultation.
+              free consultation. We serve all areas of Islamabad, Rawalpindi, and surrounding localities.
             </p>
             <Button
               asChild

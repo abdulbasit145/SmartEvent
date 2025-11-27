@@ -170,7 +170,7 @@ const Gallery = () => {
                 Our <span className="text-transparent bg-gradient-to-r from-accent to-pink-400 bg-clip-text">Gallery</span>
               </h1>
               <p className="text-lg md:text-xl text-white/80">
-                Explore our portfolio of stunning events and celebrations
+                Explore our portfolio of stunning events and celebrations across Islamabad, Rawalpindi, and surrounding areas
               </p>
             </motion.div>
           </div>

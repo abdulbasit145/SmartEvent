@@ -37,13 +37,13 @@ const Hero = () => {
               </h1>
               <p className="text-lg sm:text-xl text-white/80 max-w-xl">
                 From intimate birthdays to luxury destination weddings, we design, plan, and execute
-                unforgettable events with seamless precision across Pakistan.
+                unforgettable events with seamless precision in Islamabad, Rawalpindi, and surrounding areas.
               </p>
             </div>
 
             <div className="grid gap-4 sm:grid-cols-2">
               {[
-                { label: "Events Delivered", value: "350+", detail: "Across Pakistan" },
+                { label: "Events Delivered", value: "350+", detail: "Islamabad & Rawalpindi" },
                 { label: "Client Satisfaction", value: "4.9/5", detail: "Based on 180+ reviews" },
               ].map((stat) => (
                 <div

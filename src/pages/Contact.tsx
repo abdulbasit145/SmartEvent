@@ -89,7 +89,7 @@ const Contact = () => {
                 Contact <span className="text-transparent bg-gradient-to-r from-accent to-pink-400 bg-clip-text">Us</span>
               </h1>
               <p className="text-base sm:text-lg md:text-xl text-white/80">
-                Ready to plan your perfect event? Get in touch with us today
+                Ready to plan your perfect event in Islamabad or Rawalpindi? Get in touch with us today. We serve all areas of the twin cities and surrounding localities.
               </p>
             </motion.div>
           </div>
@@ -109,7 +109,7 @@ const Contact = () => {
               <h2 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6 text-white">Get in Touch</h2>
               <p className="text-white/70 mb-6 sm:mb-8 text-sm sm:text-base">
                 We'd love to hear from you. Fill out the form or reach us through the contact
-                details below.
+                details below. Located in Chaksahzad, Islamabad, we serve clients throughout Islamabad, Rawalpindi, and surrounding areas including Bahria Town, DHA, Gulberg, and more.
               </p>
 
               <div className="space-y-4 sm:space-y-6">

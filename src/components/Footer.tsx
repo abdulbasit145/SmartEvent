@@ -14,7 +14,7 @@ const Footer = () => {
               <span className="text-transparent bg-gradient-to-r from-accent to-pink-400 bg-clip-text">Smart Events</span>
             </h3>
             <p className="text-sm text-white/70 mb-4 max-w-xs">
-              Making your events memorable and stress-free since day one.
+              Making your events memorable and stress-free since day one. Serving Islamabad, Rawalpindi, and surrounding areas.
             </p>
           </div>
 

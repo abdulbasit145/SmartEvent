@@ -101,8 +101,8 @@ const Services = () => {
                 Our <span className="text-transparent bg-gradient-to-r from-accent to-pink-400 bg-clip-text">Services</span>
               </h1>
               <p className="text-lg md:text-xl text-white/80">
-                Comprehensive event management solutions tailored to make your special occasions
-                memorable
+                Comprehensive event management solutions in Islamabad and Rawalpindi, tailored to make your special occasions
+                memorable. Serving twin cities and surrounding areas.
               </p>
             </motion.div>
           </div>
@@ -124,7 +124,7 @@ const Services = () => {
                 <div className="relative h-48 sm:h-56 md:h-64 overflow-hidden">
                   <img
                     src={service.image}
-                    alt={service.title}
+                    alt={`${service.title} services in Islamabad and Rawalpindi by Smart Events`}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
@@ -160,9 +160,9 @@ const Services = () => {
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white">Ready to Plan Your Event?</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white">Ready to Plan Your Event in Islamabad or Rawalpindi?</h2>
             <p className="text-lg mb-8 max-w-2xl mx-auto text-white/80">
-              Let's create something amazing together. Contact us today for a free consultation.
+              Let's create something amazing together. Contact us today for a free consultation. We serve all areas of the twin cities including Chaksahzad, Bahria Town, DHA, and surrounding localities.
             </p>
             <Button
               asChild

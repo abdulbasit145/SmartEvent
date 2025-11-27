@@ -16,7 +16,7 @@ const About = () => {
       icon: Eye,
       title: "Our Vision",
       description:
-        "To be Pakistan's leading event management service, known for creativity, reliability, and excellence.",
+        "To be Islamabad and Rawalpindi's leading event management service, known for creativity, reliability, and excellence.",
     },
     {
       icon: Award,
@@ -79,19 +79,20 @@ const About = () => {
                 <p className="text-white/80 mb-4">
                   Smart Events was founded with a passion for creating memorable celebrations. What
                   started as a small venture has grown into a comprehensive event management
-                  service that serves clients across Pakistan.
+                  service that serves clients throughout Islamabad, Rawalpindi, and surrounding areas including
+                  Chaksahzad, Bahria Town, DHA, Gulberg, and other twin cities localities.
                 </p>
                 <p className="text-white/80 mb-4">
                   We understand that every event is unique and special. Whether it's an intimate
-                  birthday celebration, a grand wedding ceremony, or a corporate gathering, we
-                  bring the same level of dedication, creativity, and professionalism to every
-                  project.
+                  birthday celebration in F-7, a grand wedding ceremony in Bahria Town, or a corporate gathering
+                  in Rawalpindi, we bring the same level of dedication, creativity, and professionalism to every
+                  project across the twin cities.
                 </p>
                 <p className="text-white/80">
                   Our team of experienced professionals works tirelessly to ensure that every
                   detail is perfect, every moment is captured, and every guest leaves with lasting
-                  memories. We take pride in our ability to transform visions into reality and
-                  stress into success.
+                  memories. Based in Chaksahzad, Islamabad, we take pride in our ability to transform visions into reality and
+                  stress into success for clients throughout the Islamabad-Rawalpindi region.
                 </p>
               </div>
             </motion.div>
